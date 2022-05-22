@@ -6,6 +6,12 @@
  after we can add attribute and style
    a) document.getElementById("").textContent="Something";  --> for adding matter
    b)document.getElementByid("imagetag").src="url"; -->for image 
+   c)Exceptional case:
+              for adding for attribute we have to do like this:
+                           1)a.htmlFor="mycheckbox";
+   d)we can attributes in different case also:
+              1)a.setAttribute("src","url");
+   
    
  after we can add inline styles also
    a)document.getElementById("").style.backgroundColor="green"; ->inline style
