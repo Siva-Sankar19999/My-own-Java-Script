@@ -5,24 +5,32 @@
    
  after we can add attribute and style
    a) document.getElementById("").textContent="Something";  --> for adding matter
+   b)document.getElementByid("imagetag").src="url"; -->for image 
+   
  after we can add inline styles also
    a)document.getElementById("").style.backgroundColor="green"; ->inline style
+   
  we can add css class styles by using below syntax
    a)document.getElementById("").classList.add("");  ->Better than inline styles
+   
  we can remove css class styles also
    a)document.getElementById("").classList.remove(""); 
+   
  after that we can create element by using dom
    a)let new_element=document.createElement("tagname");
    b)document.body.appendChild("new_element");
+   
  In Java Script there are events which user or browser can do :
                     1.click
                     2.scrolling
                     3.key pressing
+                    
  after that we can add events to elements 
     a)<button onclick="fun">submit</button>  ->onclick is a event which will be triggered when we click on buttton
     b)after that we have to write event listeners to events
         fun function(){
           alert("hello world"); }
+          
  we can write above scenario in dynamically also by:
    let element=document.createElement("button");
    element.onclick=function(){alert("hello world");}
